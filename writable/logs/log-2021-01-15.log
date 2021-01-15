@@ -1,0 +1,14 @@
+CRITICAL - 2021-01-15 09:35:36 --> Undefined index: costovu
+#0 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->actualizarMueble()
+#2 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-15 09:35:38 --> Undefined index: costovu
+#0 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->actualizarMueble()
+#2 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

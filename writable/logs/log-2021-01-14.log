@@ -1,0 +1,365 @@
+CRITICAL - 2021-01-14 14:19:58 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(24): App\Models\MuebleriaModel->obtenerTodosLosMueblesModel()
+#3 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->obtenerTodosLosMuebles()
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-14 14:22:37 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:22:40 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:22:41 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:22:43 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:22:44 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:22:44 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:22:45 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:24:13 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:24:44 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:24:47 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:24:47 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:24:48 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:24:54 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:24:56 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:25:03 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(24): App\Models\MuebleriaModel->obtenerTodosLosMueblesModel()
+#3 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->obtenerTodosLosMuebles()
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-14 14:25:09 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(24): App\Models\MuebleriaModel->obtenerTodosLosMueblesModel()
+#3 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->obtenerTodosLosMuebles()
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-14 14:25:27 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(24): App\Models\MuebleriaModel->obtenerTodosLosMueblesModel()
+#3 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->obtenerTodosLosMuebles()
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-14 14:25:59 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:26:00 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:26:00 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:26:00 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:26:00 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:26:01 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:26:01 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:26:01 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:26:01 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:26:07 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:27:04 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:27:05 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:27:41 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 14:27:42 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\xampp\htdocs\proyecto_unidad6\app\Models\MuebleriaModel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(19): App\Models\MuebleriaModel->agregarMueble(Array)
+#4 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->agregarMuebles()
+#5 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-14 22:11:57 --> Undefined index: costovu
+#0 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->actualizarMueble()
+#2 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-14 22:12:00 --> Undefined index: costovu
+#0 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->actualizarMueble()
+#2 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-14 22:12:01 --> Undefined index: costovu
+#0 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->actualizarMueble()
+#2 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-14 22:12:01 --> Undefined index: costovu
+#0 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->actualizarMueble()
+#2 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-14 22:12:01 --> Undefined index: costovu
+#0 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->actualizarMueble()
+#2 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-14 22:12:01 --> Undefined index: costovu
+#0 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->actualizarMueble()
+#2 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-14 22:12:02 --> Undefined index: costovu
+#0 C:\xampp\htdocs\proyecto_unidad6\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->actualizarMueble()
+#2 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\proyecto_unidad6\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_unidad6\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
